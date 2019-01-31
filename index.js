@@ -20,22 +20,22 @@ function divide(a, b) {
   return number;
 }
 
-function inc(n) {
-  number ++;
+function inc(a) {
+  number = a + 1;
   return number;
 }
 
-function dec(n) {
-  number --;
+function dec(a) {
+  number = a - 1;
   return number;
 }
 
-function makeInt(n) {
+function makeInt(a) {
   number = parseInt(a, 10);
   return number;
 }
 
-function preserveDecimal(n) {
+function preserveDecimal(a) {
   number = parseFloat(a, 10);
   return number;
 }
